@@ -12,3 +12,4 @@ script : sudo chef-solo -c $WERCKER_SOURCE_DIR/solo.rb -j $WERCKER_SOURCE_DIR/so
 env:
   WERCKER_REDIS_PORT: 6379
   WERCKER_REDIS_URL: redis://$$HOST$$:6379
+  WERCKER_REDIS_VERSION: "2.16.3"
