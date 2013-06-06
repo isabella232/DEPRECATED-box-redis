@@ -1,5 +1,5 @@
 name: redis
-version: 0.0.2
+version: 0.0.3
 inherits: wercker/ubuntu12.04-chef10.18.2@0.0.8
 type : service
 platform : ubuntu@12.04
@@ -7,9 +7,8 @@ description : redis
 keywords:
   - redis
 packages :
-  - redis
+  - redis@2.16.3
 script : sudo chef-solo -c $WERCKER_SOURCE_DIR/solo.rb -j $WERCKER_SOURCE_DIR/solo.json -l debug
 env:
-  WERCKER_MONGODB_PORT: 27017
   WERCKER_REDIS_PORT: 6379
   WERCKER_REDIS_URL: redis://$$HOST$$:6379
