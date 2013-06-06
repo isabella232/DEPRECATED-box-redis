@@ -1,5 +1,5 @@
 name: redis
-version: 0.0.3
+version: 0.0.4
 inherits: wercker/ubuntu12.04-chef10.18.2@0.0.8
 type : service
 platform : ubuntu@12.04
