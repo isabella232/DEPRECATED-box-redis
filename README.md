@@ -31,11 +31,11 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
-## 0.0.7
+## 0.0.8
 
 - Add protocol to REDIS_URL value
 
-## 0.0.6
+## 0.0.7
 
 - Introduce REDIS_URL environment variable
 
