@@ -4,9 +4,7 @@ This box provides redis as a wercker service.
 
 # What's new
 
-- Lock apt cookbook to 1.8.2
-- Add license
-- Update readme
+- Add protocol to REDIS_URL value
 
 # License
 
@@ -32,6 +30,14 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
+
+## 0.0.7
+
+- Add protocol to REDIS_URL value
+
+## 0.0.6
+
+- Introduce REDIS_URL environment variable
 
 ## 0.0.5
 
