@@ -1,5 +1,5 @@
 name: redis
-version: 0.0.5
+version: 0.0.6
 inherits: wercker/ubuntu12.04-chef10.18.2@0.0.8
 type: service
 platform: ubuntu@12.04
@@ -13,3 +13,4 @@ env:
   WERCKER_REDIS_PORT: 6379
   WERCKER_REDIS_URL: redis://$$HOST$$:6379
   WERCKER_REDIS_VERSION: "2.16.3"
+  REDIS_URL: redis://$$HOST$$:6379
