@@ -31,6 +31,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 1.0.0
+
+- upgrade redis to 2.8.15
+
 ## 0.0.8
 
 - Add protocol to REDIS_URL value
