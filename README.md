@@ -4,7 +4,7 @@ This box provides redis as a wercker service.
 
 # What's new
 
-- Add protocol to REDIS_URL value
+- Upgraded redis to 2.8.15
 
 # License
 
@@ -31,17 +31,21 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 1.0.1
+- updated: value of WERCKER\_REDIS\_VERSION
+
 ## 1.0.0
 
 - upgrade redis to 2.8.15
+- bug: WERCKER\_REDIS\_VERSION was still set to 2.16.3
 
 ## 0.0.8
 
-- Add protocol to REDIS_URL value
+- Add protocol to REDIS\_URL value
 
 ## 0.0.7
 
-- Introduce REDIS_URL environment variable
+- Introduce REDIS\_URL environment variable
 
 ## 0.0.5
 
